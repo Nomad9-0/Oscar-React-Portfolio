@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import styles from "@/app/components/Projects/projects.module.css";
 import lostDungonImg from "@/app/images/lostDungeon.gif";
 import nomadImg from "@/app/images/nomad.jpg";
@@ -53,7 +54,13 @@ export default function Projects() {
             <div className={styles.projectsGrid}>
                 {projectList.map((project, index) => (
                     <div key={index} className={styles.projectCard}>
-                        <img src={project.image} alt={project.title} className={styles.projectImage} />
+                        <Image 
+                            src={project.image} 
+                            alt={project.title} 
+                            className={styles.projectImage}
+                            width={500}
+                            height={500}
+                        />
                         <h3 className={styles.projectTitle}>{project.title}</h3>
                         <p className={styles.projectDescription}>{project.description}</p>
                         <a href={project.link} className={styles.projectLink}>View Project</a>
