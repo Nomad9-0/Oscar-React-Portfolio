@@ -64,3 +64,19 @@
     color: #666;
     margin-bottom: 1rem;
 }
+
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .section {
+        flex-direction: column;
+        align-items: center;
+        padding: 2rem; /* Adjusted padding for smaller screens */
+    }
+
+    .about {
+        margin-left: 0;
+        margin-top: 2rem; /* Added margin-top for spacing */
+        text-align: center; /* Center-align text on smaller screens */
+    }
+}

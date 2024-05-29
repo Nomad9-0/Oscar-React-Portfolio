@@ -1,21 +1,19 @@
 "use client";
+import Image from "next/image";
 import styles from "@/app/components/Bio/bio.module.css";
-import oscarImg from "@/app/images/Oscar.jpg";
-import linkedinImg from "@/app/images/LI-In-Bug.png";
-import githubImg from "@/app/images/github-mark.png";
 
 export default function Bio() {
     return (
         <div className={styles.section}>
             <div className={styles.picture}>
-                <img src={oscarImg.src} alt="Oscar Jimenez" className={styles.oscarImg} />
+                <Image src="/Oscar.jpg" alt="Oscar Jimenez" className={styles.oscarImg} width={200} height={200} />
                 <p className={styles.name}>Oscar Jimenez</p>
                 <div className={styles.links}>
                     <a href="https://www.linkedin.com/in/oscar-jimenez-b2a58a55/" target="_blank" rel="noopener noreferrer">
-                        <img src={linkedinImg.src} alt="Oscar LinkedIn" className={styles.icon} />
+                        <Image src="/LI-In-Bug.png" alt="Oscar LinkedIn" className={styles.icon} width={100} height={100}/>
                     </a>
                     <a href="https://github.com/Nomad9-0" target="_blank" rel="noopener noreferrer">
-                        <img src={githubImg.src} alt="Oscar GitHub" className={styles.icon} />
+                        <Image src="/github-mark.png" alt="Oscar GitHub" className={styles.icon} width={100} height={100}/>
                     </a>
                 </div>
             </div>
