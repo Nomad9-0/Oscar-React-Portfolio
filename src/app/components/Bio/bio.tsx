@@ -19,7 +19,7 @@ export default function Bio() {
             </div>
             <div className={styles.about}>
                 <h3>Who am I?</h3>
-                <p>Hi! My name is Oscar and I'm a Software Engineer based in California. I have experience in building full-stack projects from concept to production with a strong focus on front-end technologies.</p>
+                <p>Hi! My name is Oscar and Im a Software Engineer based in California. I have experience in building full-stack projects from concept to production with a strong focus on front-end technologies.</p>
                 <p>I have a Business degree from California State University, Northridge and a Full-stack Web Development Certificate from UCLA Extension Program.</p>
                 <p>My experience as an analyst and software developer has equipped me with a unique approach to addressing challenges.</p>
             </div>

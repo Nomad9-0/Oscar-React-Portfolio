@@ -6,10 +6,10 @@ export default function Hero() {
         <div id="hero" className={styles.hero}>
           <div className={styles.container}>
             <h1 className={styles.title}>
-              Hi. I'm Oscar Jimenez
+              Hi. Im Oscar Jimenez
             </h1>
             <p className={styles.description}>
-              I'm a Software Engineer that welcomes challenges and growth.
+              Im a Software Engineer that welcomes challenges and growth.
             </p>
           </div>
         </div>
