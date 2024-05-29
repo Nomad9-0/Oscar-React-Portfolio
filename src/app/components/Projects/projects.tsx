@@ -1,9 +1,9 @@
 "use client";
 import styles from "@/app/components/Projects/projects.module.css";
 import lostDungonImg from "@/app/images/lostDungeon.gif";
-import nomadImg from "@/app/images/nomad.JPG";
-import rootsImg from "@/app/images/rootsPage.png";
-import frostmaidenImg from "@/app/images/Frostmaiden.JPG";
+import nomadImg from "@/app/images/nomad.jpg";
+import rootsImg from "../../images/rootsPage.png";
+import frostmaidenImg from "@/app/images/Frostmaiden.jpg";
 import toDoImg from "@/app/images/todo-list.jpg";
 import sawyerImg from "@/app/images/WebsiteHeroFaceDR.png";
 
