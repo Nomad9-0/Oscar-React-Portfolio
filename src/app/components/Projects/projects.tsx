@@ -35,10 +35,10 @@ export default function Projects() {
             link: "https://nomad9-0.github.io/react-to-do-list/"
         },
         {
-            title: "Dr Sawyer Medical Office",
-            description: "IN PROGRESS, A simple website for a local doctors office.",
-            image: "/WebsiteHeroFaceDR.png",
-            link: "#"
+            title: "Allegiant Jiu-Jitsu",
+            description: "A website for my local Jiu-Jitsu gym to help them increase their online presence and recruit more members.",
+            image: "/jiujitsu.PNG",
+            link: "https://www.allegiantjiujitsu.com/"
         }
     ];
 
